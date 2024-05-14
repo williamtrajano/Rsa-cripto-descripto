@@ -1,5 +1,5 @@
-<h1 align="center">RSA Cripto e Descripto</h1>
-<h2>Exemplo de criptografia e descriptografia com RSA</h2>
+<h1 align="center">RSA Cripto e Descripto - .NET Core 5.0</h1>
+<h3>Exemplo de criptografia e descriptografia com RSA, podendo ser usado em qualquer versão do .NET Core</h3>
 
 
 <h4>Nesse projeto contém</h4>
