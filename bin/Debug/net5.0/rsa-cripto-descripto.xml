@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>rsa-cripto-descripto</name>
+    </assembly>
+    <members>
+        <member name="T:rsa_cripto_descripto.Controllers.RsaCriptoController">
+            <summary>
+            Controller para criptografia e descriptografia com RSA
+            </summary>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.ListarSitesReferencias">
+            <summary>
+            Lista de sites de referencia, documentação microsoft e gerador de chaves PEM online
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.GerarChaveXmlRsa">
+            <summary>
+            Gerando o Xml chave privada
+            </summary>
+            <param name="recebe"></param>
+            <returns>Retorna</returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.CriptoXml(rsa_cripto_descripto.DTOs.CriptoXmlDTO)">
+            <summary>
+            Criptografia com XML
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.DescriptoXml(rsa_cripto_descripto.DTOs.DescriptoXmlDTO)">
+            <summary>
+            Descriptografia com XML
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.CriptoPem(rsa_cripto_descripto.DTOs.CriptoPemDTO)">
+            <summary>
+            Criptografia com chave PEM
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Controllers.RsaCriptoController.DescriptoPem(rsa_cripto_descripto.DTOs.DescriptPemDTO)">
+            <summary>
+            Descriptografia com chave PEM
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:rsa_cripto_descripto.DTOs.CriptoPemDTO">
+            <summary>
+            DTO para criptografar com chave PEM
+            </summary>
+        </member>
+        <member name="T:rsa_cripto_descripto.DTOs.CriptoXmlDTO">
+            <summary>
+            DTO para encriptar o texto com chave XML publica
+            </summary>
+        </member>
+        <member name="T:rsa_cripto_descripto.DTOs.DescriptoXmlDTO">
+            <summary>
+            DTO para descriptografar o texto com chave XML privada
+            </summary>
+        </member>
+        <member name="T:rsa_cripto_descripto.DTOs.DescriptPemDTO">
+            <summary>
+            DTO para descritografar com chave PEM
+            </summary>
+        </member>
+        <member name="T:rsa_cripto_descripto.DTOs.XmlDTO">
+            <summary>
+            DTO de retorno das chaves XML
+            </summary>
+        </member>
+        <member name="T:rsa_cripto_descripto.Enums.RsaSizeEnum">
+            <summary>
+            Enumerable para determinar qual tamanho da criptografia
+            </summary>
+        </member>
+        <member name="M:rsa_cripto_descripto.Services.RSACryptServices.GerarChaveXmlRsa">
+            <summary>
+            Método para gerar o XML
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Services.RSACryptServices.EncriptPemRSA(rsa_cripto_descripto.DTOs.CriptoPemDTO)">
+            <summary>
+            Método para descritografia com chave publica PEM
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Services.RSACryptServices.EncriptXmlRSA(rsa_cripto_descripto.DTOs.CriptoXmlDTO)">
+            <summary>
+            Método para critografia com chave publica XML
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Services.RSACryptServices.DecriptPemRSA(rsa_cripto_descripto.DTOs.DescriptPemDTO)">
+            <summary>
+            Método para descritografia com chave privada PEM
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:rsa_cripto_descripto.Services.RSACryptServices.DecriptXmlRSA(rsa_cripto_descripto.DTOs.DescriptoXmlDTO)">
+            <summary>
+            Método para descritografia com chave privada XML
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
