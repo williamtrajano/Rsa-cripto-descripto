@@ -7,6 +7,7 @@
 <li>Gerador chave XML</li>
 <li>Criptografia e descriptografia com chave xml</li>
 <li>Criptografia e descriptografia com chave PEM (enviado pelo body)</li>
+<li>Swagger para analisar e validar dos itens acima</li>
 </ul>
 
 <h4><strong>Próximas atualizações</strong></h4>
