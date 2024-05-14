@@ -4,7 +4,7 @@
 
 <h4>Nesse projeto contém</h4>
 <ul>
-<li>Gerador da chave XML</li>
+<li>Gerador chave XML</li>
 <li>Criptografia e descriptografia com chave xml</li>
 <li>Criptografia e descriptografia com chave PEM (enviado pelo body)</li>
 </ul>
